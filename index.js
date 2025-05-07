@@ -1,13 +1,10 @@
 // this ass code was produced by @8leuv
 
 const {BrowserWindow, app, screen} = require('electron');
-const path = require('path');
 
 function Client() {
-    const { height, width } = screen.getPrimaryDisplay().workAreaSize;
     const client = new BrowserWindow({
-        icon: path.join(__dirname, ''), //-- Change this path if u want a different icon (i cannot be fucked personally)
-        fullscreen: true,
+        fullscreen: true, //-- Fullscreen it so the crosshair defaults to center on any resolution.
         fullscreenable: false,
         autoHideMenuBar: true,
         resizable: false,
