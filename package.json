@@ -1,0 +1,18 @@
+{
+    "name": "8luev Crosshair",
+    "version": "1.0.0",
+    "description": "Some terrible crosshair app made by a dumbass.",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron": "^25.9.8"
+    },
+    "author": "8luev",
+    "license": "MIT",
+    "dependencies": {
+        "fetch": "^1.1.0",
+        "node-fetch": "^3.3.2"
+    }
+}
