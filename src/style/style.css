@@ -10,8 +10,9 @@
 }
 
 img {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: auto;
+    object-fit: fill;
 }
 
 * {
