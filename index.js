@@ -5,13 +5,12 @@ const {BrowserWindow, app, screen} = require('electron');
 function Client() {
     const client = new BrowserWindow({
         fullscreen: true, //-- Fullscreen it so the crosshair defaults to center on any resolution.
-        fullscreenable: false,
         autoHideMenuBar: true,
         resizable: false,
         minimizable: false,
         alwaysOnTop: true,
         focusable: false,
-        transparent: true,
+        transparent: false,
         frame: false, //-- Removes the close, minimize etc bar at the top
         webPreferences: {
             devTools: false,
