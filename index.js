@@ -1,6 +1,6 @@
 // this ass code was produced by @8leuv
 
-const {BrowserWindow, app: notworkingwtf, screen} = require('electron');
+const {BrowserWindow, app, screen} = require('electron');
 
 function Client() {
     const client = new BrowserWindow({
@@ -21,6 +21,6 @@ function Client() {
 };
 
 
-notworkingwtf.on('ready', () => {
+app.on('ready', () => {
     Client();
 });
