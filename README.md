@@ -1,5 +1,3 @@
-# crosshair
-Some ass crosshair app made by a dumbass.
-
-# running
+# blue-v-crosshair
+### running
 use `npm run start`
