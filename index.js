@@ -10,7 +10,7 @@ function Client() {
         minimizable: false,
         alwaysOnTop: true,
         focusable: false,
-        transparent: false,
+        transparent: true,
         frame: false, //-- Removes the close, minimize etc bar at the top
         webPreferences: {
             devTools: false,
