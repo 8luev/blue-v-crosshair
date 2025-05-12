@@ -38,6 +38,11 @@ function MenuTray() {
         }
     });
 
+    menu.on('close', (event) => {
+        event.preventDefault();
+        menu.hide();
+    });
+    
     tray = new Tray('./src/assets/favicon.png');
     tray.setToolTip('Crosshair application.');
 
