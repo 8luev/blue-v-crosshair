@@ -1,7 +1,7 @@
 {
-    "name": "8luev Crosshair",
+    "name": "blue-v-crosshair",
     "version": "1.0.0",
-    "description": "Some terrible crosshair app made by a dumbass.",
+    "description": "Simple image overlay in the center of the screen.",
     "main": "index.js",
     "scripts": {
         "start": "electron ."
